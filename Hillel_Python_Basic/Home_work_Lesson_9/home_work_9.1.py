@@ -1,5 +1,5 @@
 def popular_words(text, words):
-    text = text.lower().split()   # приводим текст к нижнему регистру и разбиваем на слова
+    text = text.lower().split()
     return {word: text.count(word) for word in words}
 
 
